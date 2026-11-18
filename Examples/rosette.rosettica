@@ -1,0 +1,8 @@
+{
+  "background": {"red": 0.99, "green": 0.97, "blue": 0.92, "alpha": 1},
+  "layers": [
+    {"id": "8E2B4B49-2C6F-4E6E-9A5B-000000000001", "form": "ringSmall", "side": "inside", "cogTeeth": 84, "penFraction": 0.9, "phaseTeeth": 0, "lineWidth": 1.0, "color": {"red": 0.05, "green": 0.55, "blue": 0.28, "alpha": 1}},
+    {"id": "8E2B4B49-2C6F-4E6E-9A5B-000000000002", "form": "ringSmall", "side": "inside", "cogTeeth": 52, "penFraction": 0.75, "phaseTeeth": 0, "lineWidth": 1.2, "color": {"red": 0.1, "green": 0.22, "blue": 0.75, "alpha": 1}},
+    {"id": "8E2B4B49-2C6F-4E6E-9A5B-000000000003", "form": "ringSmall", "side": "inside", "cogTeeth": 63, "penFraction": 0.55, "phaseTeeth": 0, "lineWidth": 1.2, "color": {"red": 0.82, "green": 0.12, "blue": 0.16, "alpha": 1}}
+  ]
+}

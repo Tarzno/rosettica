@@ -1,0 +1,58 @@
+{
+  "background": {
+    "alpha": 1,
+    "blue": 0.92,
+    "green": 0.97,
+    "red": 0.99
+  },
+  "layers": [
+    {
+      "cogTeeth": 84,
+      "color": {
+        "alpha": 1,
+        "blue": 0.28,
+        "green": 0.55,
+        "red": 0.05
+      },
+      "form": "ringLarge",
+      "id": "8E2B4B49-2C6F-4E6E-9A5B-000000000101",
+      "lineWidth": 0.9,
+      "penFraction": 0.92,
+      "phaseTeeth": 0,
+      "rotationDegrees": 0,
+      "side": "inside"
+    },
+    {
+      "cogTeeth": 52,
+      "color": {
+        "alpha": 1,
+        "blue": 0.75,
+        "green": 0.22,
+        "red": 0.1
+      },
+      "form": "ringLarge",
+      "id": "8E2B4B49-2C6F-4E6E-9A5B-000000000102",
+      "lineWidth": 1.0,
+      "penFraction": 0.8,
+      "phaseTeeth": 0,
+      "rotationDegrees": 0,
+      "side": "inside"
+    },
+    {
+      "cogTeeth": 30,
+      "color": {
+        "alpha": 1,
+        "blue": 0.16,
+        "green": 0.12,
+        "red": 0.82
+      },
+      "form": "ringLarge",
+      "id": "8E2B4B49-2C6F-4E6E-9A5B-000000000103",
+      "lineWidth": 1.1,
+      "penFraction": 0.7,
+      "phaseTeeth": 0,
+      "rotationDegrees": 0,
+      "side": "inside"
+    }
+  ]
+}
