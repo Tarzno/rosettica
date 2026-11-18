@@ -101,7 +101,7 @@ macOS 13 should work but have not been tried.
 
 ### Download
 
-Get `Rosettica-macos-arm64.dmg` from the [Releases](../../releases/latest)
+Get `Rosettica-1.0-macos-arm64.dmg` from the [Releases](../../releases/latest)
 page and open it. Drag **Rosettica** onto the Applications folder, and
 double-click **Rosettica.saver** if you want the screensaver as well.
 
