@@ -1,6 +1,7 @@
 #!/bin/zsh
 # Builds the app and the screensaver and packs both into the release disk
-# image dist/Rosettica-macos-arm64.dmg: a window with a backdrop, the
+# image dist/Rosettica-<version>-macos-arm64.dmg (version from
+# Resources/Info.plist): a window with a backdrop, the
 # app next to an Applications shortcut, and the screensaver below.
 #
 # Finder itself lays the window out (it is scripted via osascript), so this
@@ -12,7 +13,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 VOLUME="Rosettica"
-DMG="dist/Rosettica-macos-arm64.dmg"
+VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" Resources/Info.plist)
+DMG="dist/Rosettica-${VERSION}-macos-arm64.dmg"
 APP="Rosettica.app"
 SAVER="Rosettica.saver"
 # Window content size; Tools/dmgbackground.swift draws the backdrop for it and

@@ -121,7 +121,7 @@ You need a recent Xcode (Swift 5.9 or newer). There are no other dependencies.
 cd Rosettica                  # your clone of this repository
 Scripts/build-app.sh          # → dist/Rosettica.app
 Scripts/build-saver.sh        # → dist/Rosettica.saver
-Scripts/build-dmg.sh          # → dist/Rosettica-macos-arm64.dmg (builds both first)
+Scripts/build-dmg.sh          # → dist/Rosettica-<version>-macos-arm64.dmg (builds both first)
 ```
 
 ### Installing the screensaver
