@@ -28,7 +28,9 @@ TITLEBAR=28
 Scripts/build-app.sh
 Scripts/build-saver.sh
 
-WORK=$(mktemp -d)
+# Under /tmp, not the per-user temporary folder: Finder's alias to the
+# backdrop records the path of the writable image, and that path ships.
+WORK=$(mktemp -d /tmp/rosettica-dmg.XXXXXX)
 MOUNT=""
 cleanup() {
     [ -n "$MOUNT" ] && hdiutil detach "$MOUNT" -quiet -force 2>/dev/null || true
